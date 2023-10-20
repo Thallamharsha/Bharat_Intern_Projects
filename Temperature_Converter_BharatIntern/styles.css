@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: auto;
+    max-width: 400px; /* Limit the maximum card width */
+}
+
+h1 {
+    color: #333;
+}
+
+.input-container {
+    text-align: left;
+}
+
+input {
+    width: 93%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow result boxes to wrap */
+    margin-top: 20px;
+}
+
+.result-box {
+    background-color: #3498db;
+    border: 1px solid #2971a9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1; /* Let result boxes grow as needed */
+    margin: 5px;
+}
+
+h3 {
+    color: #fff;
+}
+
+p {
+    margin: 0;
+    line-height: 1.5;
+    color: #333;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show "..." for long values */
+}
